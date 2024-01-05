@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Sobre
 ---
 
-Hi
+O Diretório Acadêmico da Ciência da Computação do Pampa (DACC)
