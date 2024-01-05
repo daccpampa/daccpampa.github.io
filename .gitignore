@@ -1,6 +1,7 @@
 _site
 tmp
 *.rdb
+*.lock
 .env
 .sass-cache
 .DS_Store
