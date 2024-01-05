@@ -1,6 +1,6 @@
 site: DACC
 url: daccpampa.github.io
-title: Diretório Acadêmico da Ciência da Computação do Pampa
+title: DACC
 description: O Diretório Acadêmico do curso de Bacharelado em Ciência da Computação da Universidade Federal do Pampa
 twitter:
   username: #yourusername
@@ -19,7 +19,7 @@ highlighter: none
 
 exclude:
   - .jekyll-cache
-  
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -31,7 +31,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
 
 collections:
   pages:
@@ -40,7 +40,7 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
-  
+
 defaults:
   -
     scope:
