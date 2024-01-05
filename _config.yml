@@ -17,8 +17,7 @@ baseurl: ""
 
 highlighter: none
 
-exclude:
-  - .jekyll-cache
+exclude: [.jekyll-cache, vendor]
 
 compress_html:
   clippings: all
