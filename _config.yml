@@ -37,9 +37,11 @@ collections:
   pages:
     output: true
     permalink: /:name
-  posts:
+  docs:
     output: true
-    permalink: /posts/:slug
+    permalink: /docs/:slug
+  posts:
+    output: false
 
 defaults:
   -
@@ -56,6 +58,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: "docs"
     values:
-      layout: "post"
+      layout: "doc"

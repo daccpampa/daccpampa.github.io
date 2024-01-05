@@ -3,7 +3,7 @@ module Jekyll
     safe true
 
     def generate(site)
-      tags = site.posts.docs.flat_map { |post| post.data['tags'] || [] }.to_set
+      tags = site.collections['docs'].docs.flat_map { |doc| doc.data['tags'] || [] }.to_set
       tags.each do |tag|
         site.pages << TagPage.new(site, site.source, tag)
       end
@@ -14,7 +14,7 @@ module Jekyll
     def initialize(site, base, tag)
       @site = site
       @base = base
-      @dir  = File.join('tag', tag)
+      @dir  = File.join('tags', tag)
       @name = 'index.html'
 
       self.process(@name)

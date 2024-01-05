@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-
+{% assign site.tags = site.tags | append: page.tag %}
 <section class="posts">
 <h1>Tag #{{page.tag}}</h1>
     <ul>
-      {% for post in site.posts %}
-      {% if post.tags contains page.tag %}
-      <li><a class="post" href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+      {% for doc in site.docs %}
+      {% if doc.tags contains page.tag %}
+      <li><a class="post" href="{{ doc.url }}">{{ doc.title }}</a><time datetime="{{ doc.date | date_to_xmlschema }}">{{ doc.date | date: "%d-%m-%Y" }}</time></li>
       {% endif %}
       {% endfor %}
     </ul>
