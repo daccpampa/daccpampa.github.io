@@ -1,7 +1,7 @@
 links:
-- title: About
+- title: Sobre
   url: /
-- title: Writing
-  url: /posts
-- title: Search
-  url: /search
+- title: Documentos
+  url: /docs
+- title: Buscar
+  url: /buscar
