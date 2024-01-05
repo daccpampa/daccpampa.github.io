@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+title: Writing
 ---
 
 <section class="posts">
@@ -9,4 +10,3 @@ layout: default
 {% endfor %}
 </ul>
 </section>
-
