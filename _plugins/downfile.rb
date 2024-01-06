@@ -2,12 +2,12 @@ module Jekyll
   class DownfileTag < Liquid::Tag
     def initialize(tag_name, args, tokens)
       super
-      @args = args.strip.split(',')
+      @args = ArgParser.parse_tag_arguments(args)
       if @args.length != 2
         raise ArgumentError, 'downfile tag must have exactly two arguments'
       end
-      @link_text = @args[0].strip.gsub(/^["']|["']$/, '')
-      @file_link = @args[1].strip.gsub(/^["']|["']$/, '')
+      @link_text = @args[0]
+      @file_link = @args[1]
     end
 
     def render(context)
