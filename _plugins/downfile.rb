@@ -37,7 +37,7 @@ module Jekyll
                      'icon-doc'
                    end
 
-      "<div class=\"downfile\"><i class=\"#{icon_class}\"></i> Baixar <a href=\"#{@file_link}\">#{@link_text}</a></div>"
+      "<div class=\"downfile\"><i class=\"#{icon_class}\"></i> Baixar <a target=\"_blank\" href=\"#{@file_link}\">#{@link_text}</a></div>"
     end
   end
 end

@@ -256,6 +256,18 @@ strong, b {
 		background-color: $question;
 		border: none;
 	}
+
+	&.cancel {
+		color: $cancel-dark;
+		background-color: $cancel;
+		border: none;
+	}
+
+	&.ok {
+		color: $ok-dark;
+		background-color: $ok;
+		border: none;
+	}
 }
 
 #search-container {

@@ -18,7 +18,7 @@ module Jekyll
         if @args.length > 1
           post_content.concat("<p class=\"quote-author\">&#8212; #{@args[1]}</p>")
         end
-      when 'info', 'warning', 'question'
+      when 'info', 'warning', 'question', 'cancel', 'ok'
         icon = case @box_type
                when 'info'
                  'icon-info-2'
@@ -26,6 +26,10 @@ module Jekyll
                  'icon-warning-empty'
                when 'question'
                  'icon-chat-empty'
+               when 'cancel'
+                 'icon-cancel-1'
+               when 'ok'
+                 'icon-ok-1'
                end
         pre_content = "<i class=\"#{icon}\"></i> "
         if @args.length > 1

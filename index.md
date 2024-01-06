@@ -5,7 +5,7 @@ title: Sobre
 
 O Diretório Acadêmico da Ciência da Computação do Pampa (DACC), ou Diretório, é a entidade representativa dos estudantes do curso de [Ciência da Computação](https://cursos.unipampa.edu.br/cursos/cienciadacomputacao/) do Campus Alegrete da Universidade Federal do Pampa (UNIPAMPA). O Diretório é uma entidade sem fins lucrativos, apartidária, laica e sem qualquer tipo de discriminação.
 
-{% textbox quote,'Paulo Freire' %}
+{% textbox quote, 'Paulo Freire' %}
   É fundamental diminuir a distância entre o que se diz e o que se faz, de tal maneira que num dado momento a tua fala seja a tua prática.
 {% endtextbox %}
 
