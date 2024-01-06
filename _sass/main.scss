@@ -302,6 +302,10 @@ main {
 	hr + table, hr + ul, hr + ol {
 		margin: 1rem 0;
 	}
+
+	.post hr + p {
+		margin-top: 1rem;
+	}
 }
 
 footer {
