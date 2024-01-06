@@ -4,7 +4,7 @@ layout: default
 
 {% assign site.tags = site.tags | append: page.tag %}
 <section class="posts">
-<h1>Tag #{{page.tag}}</h1><hr>
+<h1>Tag #{{page.tag}}</h1>
   <ul>
   {% for doc in site.docs %}
     {% if doc.tags contains page.tag %}
