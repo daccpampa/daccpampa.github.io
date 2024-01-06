@@ -1,16 +1,12 @@
 ---
-layout: default
+layout: page
 ---
 
 {% assign months = "Janeiro,Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Outubro,Novembro,Dezembro" | split: "," %}
 {% assign month = page.date | date: "%m" | plus: 0 %}
 {% assign month = months[month] %}
 
-<section class="post">
-  <h2>{{ page.title }}</h2>
-  {{ content }}
-  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e de" }} {{ month }} {{ page.date | date: "de %Y" }}</time> &middot; {% for tag in page.tags %}
-    <a href="/tags/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
-</section>
+{{ content }}
 
-
+<span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e de" }} {{ month }} {{ page.date | date: "de %Y" }}</time> &middot; {% for tag in page.tags %}
+<a href="/tags/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>

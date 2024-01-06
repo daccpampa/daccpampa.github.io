@@ -25,7 +25,7 @@ module Jekyll
                when 'warning'
                  'icon-warning-empty'
                when 'question'
-                 'icon-help'
+                 'icon-chat-empty'
                end
         pre_content = "<i class=\"#{icon}\"></i> "
         if @args.length > 1

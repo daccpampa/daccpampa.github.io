@@ -12,10 +12,13 @@ O Diretório Acadêmico da Ciência da Computação do Pampa (DACC), ou Diretór
 Nosso Diretório tem suas origens em diversas entidades que representaram os estudantes do curso de Ciência da Computação do Campus Alegrete da UNIPAMPA. A primeira entidade foi criada em sete de maio de dois mil e sete (07/05/2007), sendo reestruturada em dois mil e dezesseis (2016) e novamente em dois mil e dezoito (2018). Finalmente, em dois mil e vinte e três (2023), o atual Diretório Acadêmico da Ciência da Computação do Pampa foi criado e registrado no Ofício de Registro Civil das Pessoas Jurídicas de Alegrete, RS. Para mais informações sobre o legado do Diretório, acesse a página [Legado](/legado).
 
 ### Organização
-
+---
 O Diretório é composto pela Assembleia Geral e o Conselho Diretor (e de forma opcional, pelo Conselho Fiscal e Comissões Temáticas). A Assembleia Geral é composta por todos os estudantes do curso de Ciência da Computação do Campus Alegrete da UNIPAMPA. Para mais informações sobre a organização do Diretório, acesse o [Estatuto](/docs/estatuto).
 
 ### Gestão Atual
+
+<p class="subtitle">Chapa CompUni 2024-2025</p>
+---
 
 | J. Augusto S. Goulart | Diretor-Geral |
 | Giovana Pedroso S. | Diretora de Administração |

@@ -3,4 +3,6 @@ layout: page
 title: Cheatsheet
 ---
 
-WIP
+{% textbox warning,'Em Construção!' %}
+  Esta página está sendo elaborada.
+{% endtextbox %}
