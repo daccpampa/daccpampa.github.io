@@ -2,50 +2,38 @@ module Jekyll
   class TextboxTag < Liquid::Block
     def initialize(tag_name, markup, tokens)
       super
-      @args = markup[0..-1] || ''
-      @box_type = 'default'
-      if @args != :NilClass
-        @args = @args.strip.split(',')
-        if @args.length > 0
-          @box_type = @args[0].strip.gsub(/^["']|["']$/, '')
-        end
-      end
+      @args = ArgParser.parse_tag_arguments(markup)
+      @box_type = @args.length > 0 ? @args[0] : 'default'
     end
 
     def render(context)
       content = super
+      pre_content = ''
+      post_content = ''
+
       case @box_type
       when 'quote'
+        pre_content = "<i class=\"quote-left icon-quote-left\"></i> "
+        post_content = " <i class=\"quote-right icon-quote-right\"></i>"
         if @args.length > 1
-          author = @args[1].strip.gsub(/^["']|["']$/, '')
-          "<div class=\"textbox quote\"><i class=\"quote-left icon-quote-left\"></i> #{content} <i class=\"quote-right icon-quote-right\"></i><p class=\"quote-author\">&#8212; #{author}</p></div>"
-        else
-          "<div class=\"textbox quote\"><i class=\"quote-left icon-quote-left\"></i> #{content} <i class=\"quote-right icon-quote-right\"></i></div>"
+          post_content.concat("<p class=\"quote-author\">&#8212; #{@args[1]}</p>")
         end
-      when 'info'
+      when 'info', 'warning', 'question'
+        icon = case @box_type
+               when 'info'
+                 'icon-info-2'
+               when 'warning'
+                 'icon-warning-empty'
+               when 'question'
+                 'icon-help'
+               end
+        pre_content = "<i class=\"#{icon}\"></i> "
         if @args.length > 1
-          title = @args[1].strip.gsub(/^["']|["']$/, '')
-          "<div class=\"textbox info\"><i class=\"icon-info-2\"></i> <strong>#{title}</strong> #{content}</div>"
-        else
-          "<div class=\"textbox info\"><i class=\"icon-info-2\"></i> #{content}</div>"
+          pre_content.concat("<strong>#{@args[1]}</strong> ")
         end
-      when 'warning'
-        if @args.length > 1
-          title = @args[1].strip.gsub(/^["']|["']$/, '')
-          "<div class=\"textbox warning\"><i class=\"icon-warning-empty\"></i> <strong>#{title}</strong> #{content}</div>"
-        else
-          "<div class=\"textbox warning\"><i class=\"icon-warning-empty\"></i> #{content}</div>"
-        end
-      when 'question'
-        if @args.length > 1
-          title = @args[1].strip.gsub(/^["']|["']$/, '')
-          "<div class=\"textbox question\"><i class=\"icon-help\"></i> <strong>#{title}</strong> #{content}</div>"
-        else
-          "<div class=\"textbox question\"><i class=\"icon-help\"></i> #{content}</div>"
-        end
-      else
-        "<div class=\"textbox\">#{content}</div>"
       end
+
+      "<div class=\"textbox #{@box_type}\">#{pre_content}#{content}#{post_content}</div>"
     end
   end
 end
