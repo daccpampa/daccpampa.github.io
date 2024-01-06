@@ -7,5 +7,9 @@ links:
   url: /action
 - title: Documentos
   url: /docs
+- title: Contato
+  url: /contato
+- title: Cheatsheet
+  url: /cheatsheet
 - title: Buscar
   url: /buscar
