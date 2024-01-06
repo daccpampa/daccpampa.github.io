@@ -15,11 +15,6 @@ Nosso Diretório tem suas origens em diversas entidades que representaram os est
 ---
 O Diretório é composto pela Assembleia Geral e o Conselho Diretor (e de forma opcional, pelo Conselho Fiscal e Comissões Temáticas). A Assembleia Geral é composta por todos os estudantes do curso de Ciência da Computação do Campus Alegrete da UNIPAMPA. Para mais informações sobre a organização do Diretório, acesse o [Estatuto](/docs/estatuto).
 
-<picture id="organograma">
-  <img src="/assets/images/organograma.png" alt="Organograma do DACC."/>
-  <figcaption><strong>Figura.</strong> Organograma do DACC.</figcaption>
-</picture>
-
 ### Gestão Atual
 
 <p class="subtitle">Chapa CompUni 2024-2025</p>

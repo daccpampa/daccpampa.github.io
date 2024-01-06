@@ -174,20 +174,6 @@ strong, b {
 	margin-bottom: .5rem;
 }
 
-#organograma {
-	margin: 1.5rem 0;
-
-	img {
-		display: flex;
-		margin: 0 auto;
-		width: 70%;
-	}
-
-	figcaption {
-		text-align: center;
-	}
-}
-
 .posts {
 	ul, header ul {
 		list-style: none;
@@ -300,6 +286,10 @@ main {
 	max-width: 60rem;
 	margin: 2rem auto;
 	padding: 1rem;
+
+	hr + table {
+		margin: 1rem 0;
+	}
 }
 
 footer {
@@ -349,6 +339,8 @@ section {
 
 figcaption {
   font-size: smaller;
+	text-align: center;
+	margin-top: .5rem;
 }
 
 @media print {
