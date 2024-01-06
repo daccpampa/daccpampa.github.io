@@ -195,6 +195,10 @@ strong, b {
 	//list-style-position: inside;
 }*/
 
+.downfile + *:not(.downfile) {
+  margin-top: 2rem;
+}
+
 main {
 	display:flex;
 	flex-wrap:wrap;
