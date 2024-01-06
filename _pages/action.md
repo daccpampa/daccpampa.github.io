@@ -3,4 +3,6 @@ layout: page
 title: Ações
 ---
 
-Em breve.
+{% textbox warning,'Em Construção!' %}
+  Esta página está sendo elaborada.
+{% endtextbox %}
