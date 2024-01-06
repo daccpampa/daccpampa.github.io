@@ -191,12 +191,83 @@ strong, b {
 	font-variant-numeric: tabular-nums;
 }
 
-/*.post ul, .project ul, .post ol  {
-	//list-style-position: inside;
-}*/
-
 .downfile + *:not(.downfile) {
   margin-top: 2rem;
+}
+
+.textbox {
+	background-color: $background;
+	margin: 1rem 0;
+	padding: 1rem;
+	border: 1px solid $background-secondary;
+	border-radius: 0.25rem;
+
+	&.quote {
+		color: $grey-dark;
+		font-size: .85rem;
+		margin-left: 2rem;
+		margin-right: 2rem;
+		border: none;
+		border-radius: 0pt;
+		border-left: .25rem solid $grey-dark;
+
+		.quote-author {
+			font-size: .9rem;
+			text-align: right;
+			margin-right: 1rem;
+		}
+
+		.quote-left, .quote-right {
+			font-size: .5rem;
+		}
+
+		.quote-left {
+			vertical-align: top;
+		}
+
+		.quote-right {
+			vertical-align: super;
+		}
+	}
+
+	&.info {
+		color: $info-dark;
+		background-color: $info;
+		border: none;
+	}
+
+	&.warning {
+		color: $warning-dark;
+		background-color: $warning;
+		border: none;
+	}
+
+	&.question {
+		color: $question-dark;
+		background-color: $question;
+		border: none;
+	}
+}
+
+#search-container {
+	max-width: 100%;
+}
+
+input[type=text] {
+	font-size: normal;
+	outline: none;
+	padding: 1rem;
+	background: $background;
+	width: 100%;
+	appearance: none;
+	-webkit-appearance: none;
+	font-family: inherit;
+	font-size: 100%;
+	border: none;
+}
+
+#results-container {
+	margin: .5rem 0;
 }
 
 main {

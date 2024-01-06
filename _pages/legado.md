@@ -15,7 +15,9 @@ Nosso curso de Ciência da Computação foi criado em 2006, no Centro de Tecnolo
 
 Em 2009, o curso de Ciência da Computação foi "transferido" para o Campus Alegrete da UNIPAMPA, que foi criada *de facto* em 2008. Assim, o curso elaborou o Projeto Pedagógico de Curso (PPC) conforme orientação do Currículo de Referência 2005 da [Sociedade Brasileira de Computação](https://www.sbc.org.br/) (SBC).
 
-*Trivia: apesar de agora ser o campus Alegrete da UNIPAMPA, o campus continuou a ser referido como "CTA" pelos estudantes e servidores, porém, agora, como "Campus Tecnológico de Alegrete", mesmo que de forma não oficial.*
+{% textbox info,'TRIVIA:' %}
+  Apesar de agora ser o campus Alegrete da UNIPAMPA, o campus continuou a ser referido como "CTA" pelos estudantes e servidores, porém, agora, como "Campus Tecnológico de Alegrete", mesmo que de forma não oficial.
+{% endtextbox %}
 
 Nesse ano, em vinte e nove de abril, foi reestruturada o Diretório Acadêmico do curso, também conhecido como "Diretório Acadêmico do curso de Ciência da Computação da Universidade Federal do Pampa (DACC - Unipampa)".
 
