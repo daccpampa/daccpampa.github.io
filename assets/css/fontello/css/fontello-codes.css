@@ -500,6 +500,15 @@
 .icon-attention-filled:before { content: '\e9f2'; } /* '' */
 .icon-warning-empty:before { content: '\e9f3'; } /* '' */
 .icon-warning:before { content: '\e9f4'; } /* '' */
+.icon-adobe:before { content: '\e9f5'; } /* '' */
+.icon-applemusic:before { content: '\e9f6'; } /* '' */
+.icon-microsoft:before { content: '\e9f7'; } /* '' */
+.icon-jetbrains:before { content: '\e9f8'; } /* '' */
+.icon-autodesk:before { content: '\e9f9'; } /* '' */
+.icon-sketch:before { content: '\e9fa'; } /* '' */
+.icon-figma:before { content: '\e9fb'; } /* '' */
+.icon-notion:before { content: '\e9fc'; } /* '' */
+.icon-miro:before { content: '\e9fd'; } /* '' */
 .icon-move:before { content: '\f047'; } /* '' */
 .icon-link-ext:before { content: '\f08e'; } /* '' */
 .icon-check-empty:before { content: '\f096'; } /* '' */

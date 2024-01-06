@@ -500,6 +500,15 @@
 .icon-attention-filled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f2;&nbsp;'); }
 .icon-warning-empty { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f3;&nbsp;'); }
 .icon-warning { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f4;&nbsp;'); }
+.icon-adobe { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f5;&nbsp;'); }
+.icon-applemusic { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f6;&nbsp;'); }
+.icon-microsoft { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f7;&nbsp;'); }
+.icon-jetbrains { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f8;&nbsp;'); }
+.icon-autodesk { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f9;&nbsp;'); }
+.icon-sketch { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9fa;&nbsp;'); }
+.icon-figma { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9fb;&nbsp;'); }
+.icon-notion { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9fc;&nbsp;'); }
+.icon-miro { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9fd;&nbsp;'); }
 .icon-move { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf047;&nbsp;'); }
 .icon-link-ext { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08e;&nbsp;'); }
 .icon-check-empty { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf096;&nbsp;'); }

@@ -299,7 +299,7 @@ main {
 	margin: 2rem auto;
 	padding: 1rem;
 
-	hr + table {
+	hr + table, hr + ul, hr + ol {
 		margin: 1rem 0;
 	}
 }
