@@ -7,6 +7,7 @@ $white: hsl(0, 0%, 100%);
 $grey: hsl(0, 0%, 78%);
 $grey-dark: hsl(0, 0%, 42%);
 $grey-darker: hsl(0, 0%, 29%);
+$grey-darkest: hsl(240, 8%, 17%);
 $grey-lighter: hsl(0, 0%, 94%);
 $grey-lightest: hsl(0, 0%, 96%);
 $grey-superlight: hsl(0, 0%, 98%);
@@ -21,13 +22,12 @@ $red: hsl(5, 83%, 50%);
 $orange: hsl(41, 79%, 50%);
 $greenish: hsl(78, 36%, 53%);
 
-$primary: $blue;
-$secondary: $grey-dark;
-
+$primary: #068cd7;
+$secondary: #474956;
 $background: $grey-lightest;
 $background-secondary: $grey-lighter;
-$info: hsl(205, 100%, 92%);
-$info-dark: hsl(205, 93%, 32%);
+$info: #d6eeff;
+$info-dark: #065e9d;
 $warning: #ffc043;
 $warning-dark: #5b3f00;
 $question: #f1c4ff;
