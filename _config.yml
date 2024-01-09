@@ -13,10 +13,6 @@ author:
   email: dacc@unipampa.edu.br
   url: #yoururl
 
-baseurl: ""
-
-highlighter: none
-
 exclude: [.jekyll-cache, vendor, Gem*, README*, LICENSE, CNAME]
 
 compress_html:
