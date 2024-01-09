@@ -164,6 +164,67 @@ strong, b {
 	font-weight: bold;
 }
 
+div.text {
+	&-center {
+		text-align: center;
+		margin-bottom: 1rem;
+		margin-top: .5rem;
+	}
+
+	&-justify {
+		text-align: justify;
+	}
+
+	&-flushright {
+		display: block;
+		text-align: right;
+		max-width: 50%;
+	}
+
+	&-flushleft {
+		text-align: left;
+		max-width: 50%;
+	}
+}
+
+.titlepage {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+ol.articles {
+	&.start {
+		counter-reset: articles 0;
+	}
+
+	& > li {
+		counter-increment: articles;
+		list-style: none;
+
+		& > p::before {
+			content: "Art. " counter(articles);
+			display: inline-block;
+			font-weight: bold;
+			margin-left: -1rem;
+			margin-right: 1rem;
+		}
+
+		.parsection span {
+			display: inline-block;
+			font-weight: bold;
+			margin-right: .5rem;
+
+			&.parnum::before {
+				content: "§ ";
+			}
+
+			&.parunq::before {
+				content: "Parágrafo único.";
+			}
+		}
+	}
+}
+
 .photos {
 	ul {
 		list-style: none;
