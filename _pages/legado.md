@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Legado
+priority: 100
 ---
 
 Esta página contém informações sobre o legado do Diretório Acadêmico da Ciência da Computação do Pampa (DACC) e de suas entidades antecessoras.

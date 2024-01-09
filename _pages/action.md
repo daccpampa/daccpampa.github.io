@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Ações
+priority: 80
 ---
 
 As ações do Diretório são todas aquelas que visam o cumprimento de seus objetivos. Abaixo estão listadas as ações que estão sendo realizadas atualmente.
