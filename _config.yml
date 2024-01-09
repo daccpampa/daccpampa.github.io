@@ -10,7 +10,7 @@ twitter:
 author:
   name: DACC
   avatar:
-  email: dacc@unipampa.edu.br
+  email: diretores@daccpampa.org
   url: #yoururl
 permalink: pretty
 
@@ -39,7 +39,7 @@ collections:
     permalink: /:name
   docs:
     output: true
-    permalink: /docs/:slug
+    permalink: /docs/:name
   posts:
     output: false
 
@@ -48,13 +48,13 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "default"
+      layout: "page"
   -
     scope:
       path: ""
       type: "pages"
     values:
-      layout: "page"
+      priority: 0
   -
     scope:
       path: ""

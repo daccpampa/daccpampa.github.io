@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Cheatsheet
+priority: 70
 ---
 
 A cheatsheet agrega informações úteis para o dia-a-dia do Diretório e de seus membros. A ideia é que seja um documento vivo, que possa ser atualizado conforme a necessidade.

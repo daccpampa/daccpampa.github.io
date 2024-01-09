@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Contato
+priority: 60
 ---
 
 O Diretório Acadêmico da Ciência da Computação do Pampa (DACC) está localizado no Campus Alegrete da Universidade Federal do Pampa (UNIPAMPA), na cidade de Alegrete, Rio Grande do Sul, Brasil. Para entrar em contato com o Diretório, utilize os seguintes meios:

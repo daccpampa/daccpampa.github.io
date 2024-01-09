@@ -1,5 +1,8 @@
-{% assign months = "Janeiro,Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Outubro,Novembro,Dezembro" | split: "," %}
-{% assign month = page.date | date: "%m" | plus: 0 %}
+{% assign months = 'Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro'
+  | split: ',' %}
+{% assign month = page.date | date: '%m' | plus: 0 %}
 {% assign month = months[month] %}
 
-<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e de" }} {{ month }} {{ page.date | date: "de %Y" }}</time>
+<time datetime="{{ page.date | date_to_xmlschema }}">
+  {{ page.date | date: '%e de' }} {{ month }} {{ page.date | date: 'de %Y' }}
+</time>
