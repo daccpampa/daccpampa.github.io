@@ -10,8 +10,10 @@ body {
 	font-family: $family-sans, sans-serif;
 	-webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-	line-height:1.5;
+	line-height: 1.5;
 	font-size: 1rem;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 	color: $grey-darkest;
 }
 
@@ -22,8 +24,20 @@ nav ul {
 
 a {
   color: $secondary;
+	background: none;
   text-decoration-skip-ink: auto;
   text-decoration: underline;
+	text-decoration-color: $primary;
+
+	&:focus {
+    outline: thin dotted;
+	}
+
+	&:hover, &:active {
+		outline: 0;
+		text-decoration: underline wavy;
+		text-decoration-color: $primary;
+	}
 }
 
 pre {
@@ -105,9 +119,27 @@ img {
 }
 
 hr {
-	background: $grey;
-  height: 1px;
   border: 0;
+	border-bottom: 1px solid $grey;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5rem;
+}
+
+sub {
+  bottom: -0.25rem;
 }
 
 header {
@@ -190,6 +222,12 @@ div.text {
 .titlepage {
 	display: flex;
 	flex-direction: row-reverse;
+	margin: 2rem 0;
+}
+
+div.page-break {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 ol.articles {

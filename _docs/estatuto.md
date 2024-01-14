@@ -49,7 +49,7 @@ tags: [estatuto]
   </p>
 </blockquote>
 
-<div class="text-center">A presente deliberação entra em vigor nesta data.
+<div class="text-center page-break">A presente deliberação entra em vigor nesta data.
   <br/>
   Alegrete &#8211; RS, 11 de julho de 2023.
 </div>
@@ -322,12 +322,12 @@ tags: [estatuto]
     <ol>
       <li>
         <p>Respeitar, cumprir e fazer cumprir as disposições deste
-                    estatuto.
+          estatuto.
         </p>
       </li>
       <li>
         <p>Acatar as decisões das instâncias deliberativas do
-                    Diretório.
+          Diretório.
         </p>
       </li>
       <li>
@@ -636,7 +636,7 @@ tags: [estatuto]
         <span class="parnum">2º.
         </span>
         É vedado o voto por procuração nas deliberações da Assembleia
-                Geral.
+        Geral.
       </p>
     </div>
     <div class="parsection">
@@ -747,7 +747,7 @@ tags: [estatuto]
           </li>
           <li>
             <p>Assumir controle dos procedimentos de gerenciamento de
-                            caixa.
+              caixa.
             </p>
           </li>
           <li>
@@ -764,7 +764,7 @@ tags: [estatuto]
           </li>
           <li>
             <p>Preparar relatórios da situação financeira atual e
-                            previsões.
+              previsões.
             </p>
           </li>
           <li>
@@ -790,7 +790,7 @@ tags: [estatuto]
           </li>
           <li>
             <p>Coordenar o conjunto das mais variadas atividades e
-                            eventos.
+              eventos.
             </p>
           </li>
           <li>
@@ -806,7 +806,7 @@ tags: [estatuto]
         <ol>
           <li>
             <p>Coordenar a emissão de certificados e atestados de
-                            atividades.
+              atividades.
             </p>
           </li>
           <li>
@@ -1006,7 +1006,7 @@ tags: [estatuto]
       </li>
       <li>
         <p>Manter regularizada a situação fiscal e jurídica do
-                    Diretório.
+          Diretório.
         </p>
       </li>
       <li>
@@ -1077,7 +1077,7 @@ tags: [estatuto]
     <ol>
       <li>
         <p>Requerer do Conselho Diretor relatórios, quando julgar
-                    necessário.
+          necessário.
         </p>
       </li>
       <li>
@@ -1086,7 +1086,7 @@ tags: [estatuto]
       </li>
       <li>
         <p>Apurar denúncias e irregularidades nas contas do
-                    Diretório.
+          Diretório.
         </p>
       </li>
     </ol>
@@ -1132,7 +1132,7 @@ tags: [estatuto]
       </li>
       <li>
         <p>Não desempenhar com eficiência as atribuições do seu
-                    cargo.
+          cargo.
         </p>
       </li>
     </ol>
@@ -1182,7 +1182,7 @@ tags: [estatuto]
   </li>
   <li>
     <p>O número de matrícula constitui prova de identidade do
-            membro.
+                  membro.
     </p>
     <div class="parsection">
       <p>
@@ -1233,7 +1233,7 @@ tags: [estatuto]
     <ol>
       <li>
         <p>Indicação de candidatos para todos os cargos, salvo
-                    eletivos.
+          eletivos.
         </p>
       </li>
       <li>
@@ -1414,7 +1414,7 @@ tags: [estatuto]
       </li>
       <li>
         <p>Títulos e direitos que lhe foram doados ou por ele
-                    adquirido.
+          adquirido.
         </p>
       </li>
     </ol>
@@ -1537,7 +1537,7 @@ tags: [estatuto]
         <em>campus
         </em>
         que os manterá sob sua guarda até que se reorganize a
-                entidade.
+        entidade.
       </p>
     </div>
   </li>
