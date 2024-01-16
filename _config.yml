@@ -1,17 +1,9 @@
-site: DACC
+site: DACC # TODO: remove
 url: https://daccpampa.org/
 locale: pt-BR
 title: DACC
 description: Diretório Acadêmico do curso de Bacharelado em Ciência da Computação da Universidade Federal do Pampa
-twitter:
-  username: #yourusername
-  card: summary
-  creator: #yourusername
-author:
-  name: DACC
-  avatar:
-  email: diretores@daccpampa.org
-  url: #yoururl
+author: Augusto Goulart
 
 exclude: [.jekyll-cache, vendor, Gem*, README*, LICENSE, CNAME]
 
@@ -25,7 +17,6 @@ sass:
 
 plugins:
   - jekyll-paginate
-  - jekyll-seo-tag
   - jekyll-sitemap
 
 collections:
