@@ -1,10 +1,33 @@
+{% assign canonical = site.baseurl %}
+{% unless page.url = "/" %}
+  {% assign canonical = canonical | append: "/" | append: page.url %}
+{% endunless %}
+
 <head>
-  <meta charset="UTF-8">
+  <meta charset="{{ site.encoding }}">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Jekyll">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  {% seo title=false %}
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:locale" content="{{ site.language }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:type" content="website">
+  <meta name="author" content="{{ site.author }}">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="canonical" href="{{ canonical }}">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "{{ site.baseurl }}",
+      "mainEntity": {
+        "@type": "NGO",
+        "name": "{{ site.title }}"
+      }
+    }
+  </script>
 
   <title>
     {% if page.tag or page.title %}
