@@ -1,5 +1,5 @@
 {% assign canonical = site.baseurl %}
-{% unless page.url = "/" %}
+{% unless page.url == "/" %}
   {% assign canonical = canonical | append: "/" | append: page.url %}
 {% endunless %}
 
